@@ -7,7 +7,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: 'https://mfeghworkflow.z13.web.core.windows.net/auth/latest/',
+    publicPath: '/auth/latest/',
   },
   plugins: [
     new ModuleFederationPlugin({
